@@ -22,22 +22,22 @@ let updateTimer;
 
 const music_list = [
   {
-    img: "images\P18.png",
+    img: "images/P18.png",
     name: "Mayi_Ri",
     artist: "mari ri",
-    music: 'music\Mayi_Ri_-_OST___Audio_🎧___Asrar___Waqar_Ali___ARY_Digital(128k).mp3',
+    music: 'music/Mayi_Ri_-_OST___Audio_🎧___Asrar___Waqar_Ali___ARY_Digital(128k).mp3',
   },
   {
-    img: "/images/P1.png",
+    img: "./images/P1.png",
     name: "Apni ByIdhi Zindagi Mein  ",
     artist: "bajsdj",
-    music: "/music /Apni_Bhi_Zindagi_Mein(128k).mp3",
+    music: "./music/Apni_Bhi_Zindagi_Mein(128k).mp3",
   },
   {
     img: "/images/P.png",
     name: "Dil Ki Jo Manoon To",
     artist: "",
-    music: "/music /Dil_Ki_Jo_Maanoon_To(128k).mp3",
+    music: "/music/Dil_Ki_Jo_Maanoon_To(128k).mp3",
   },
   {
     img: "/images/P2.png",
