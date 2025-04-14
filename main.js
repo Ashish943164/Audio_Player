@@ -24,13 +24,13 @@ const music_list = [
   {
     img: "images/P18.png",
     name: "Mayi_Ri",
-    artist: "mari ri",
+    artist: "",
     music: "./music/Mayi_Ri_-_OST___Audio_🎧___Asrar___Waqar_Ali___ARY_Digital(128k).mp3",
   },
   {
     img: "./images/P1.png",
-    name: "Apni ByIdhi Zindagi Mein  ",
-    artist: "bajsdj",
+    name: "Apni ByIdhi Zindagi",
+    artist: "",
     music: "./music/Apni_Bhi_Zindagi_Mein(128k).mp3",
   },
   {
@@ -41,7 +41,7 @@ const music_list = [
   },
   {
     img: "/images/P2.png",
-    name: '💞 ne yeh kaha hai 💞 se',
+    name: '💞 ne yeh kaha hai 💞',
     artist:'',
     music: "./music/Dil_Ne_Yeh_Kaha_Hain_Dil_Se(128k).mp3",
   },
@@ -103,37 +103,31 @@ const music_list = [
     img: "/images/P.png",
     name: "",
     artist: "",
-    music: "/music /Woh_Ladki_Bahut_Yaad_Aati(128k).mp3",
+    music: "./music/Woh_Ladki_Bahut_Yaad_Aati(128k).mp3",
   },
   {
     img: "/images/P14.png",
     name: "",
     artist: "",
-    music: "/music /A janu uhe liwaj me hmra se mile hhhh.mp3",
+    music: "./music./A janu uhe liwaj me hmra se mile hhhh.mp3",
   },
     {
     img: "/images/P17.png",
     name: "Jaa_Bewafa_Jaa",
     artist: "",
-    music: '/music /Jaa_Bewafa_Jaa(128k).mp3',
+    music: './music/Jaa_Bewafa_Jaa(128k).mp3',
   },
  {
     img: "/images/P15.png",
-    name: "Main_Ladki_Ka_Deewana",
+    name: "Ladki_Ka_Deewana",
     artist: "",
-    music: '/music /Main_Sehra_Bandh_Ke(128k).mp3',
+    music: './music/Main_Sehra_Bandh_Ke(128k).mp3',
  },
  {
     img: "/images/P16.png",
     name: "O_Lal_Dupatte_Wali",
     artist: "",
-    music: '/music /O_Lal_Dupatte_Wali(128k).mp3',
- },
-  {
-    img: "",
-    name: "",
-    artist: "",
-    music: '',
+    music: /music/O_Lal_Dupatte_Wali(128k).mp3',
  },
 ];
 
