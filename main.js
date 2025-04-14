@@ -22,12 +22,13 @@ let updateTimer;
 
 
 
+
 const music_list = [
   {
     img: "./images/P18.png",
     name: "Mayi_Ri",
     artist: "",
-    music: "./music/Mayi_Ri_-_OST_Asrar_Waqar_Ali_ARY_Digital.mp3",
+    music: "./music/Mayi_Ri_-_OST___Audio_🎧___Asrar___Waqar_Ali___ARY_Digital(128k).mp3",
   },
   {
     img: "./images/P1.png",
@@ -43,7 +44,7 @@ const music_list = [
   },
   {
     img: "./images/P2.png",
-    name: "Dil Ne Yeh Kaha Hai",
+    name: "💞 ne yeh kaha hai 💞",
     artist:"",
     music: "./music/Dil_Ne_Yeh_Kaha_Hain_Dil_Se(128k).mp3",
   },
@@ -59,27 +60,27 @@ const music_list = [
     artist: "",
     music: "./music/Radhe_Braj_Jan_Man_Sukhkari(128k).mp3",
   },
-  {
+    {
     img: "./images/P10.png",
     name: "Radhe Radhe",
     artist: "",
     music: "./music/Radhe_Radhe(128k).mp3",
   },
-  {
+    {
     img: "./images/P12.png",
-    name: "Sandese Aate Hai",
+    name: "Sandese aate hai",
     artist: "",
     music: "./music/Sandese_Aate_Hai(128k).mp3",
   },
   {
     img: "./images/P8.png",
-    name: "Sun Meri Shehzadi",
+    name: "Sun merishehjadi",
     artist: "",
-    music: "./music/Sun_Meri_Shehzadi_From_Dilwale(128k).mp3",
+    music: "./music/Sun_Meri_Shehzadi__From__Dilwale__(128k).mp3",
   },
   {
     img: "./images/P9.png",
-    name: "Tere Dard Se Dil",
+    name: "Tere dard se dil",
     artist: "",
     music: "./music/Tere_Dard_Se_Dil(128k).mp3",
   },
@@ -91,158 +92,47 @@ const music_list = [
   },
   {
     img: "./images/P5.png",
-    name: "Tum To Thehre Pardesi",
+    name: "Tum yo thehre pardesi",
     artist: "",
-    music: "./music/Tum_To_Thehre_Pardesi(128k).mp3",
+    music: './music/Tum_To_Thehre_Pardesi(128k).mp3",
   },
-  {
+    {
     img: "./images/P3.png",
-    name: "Us Ladki Pe Dil Aaya",
+    name: "us ladki pe dil aaya",
     artist: "",
     music: "./music/US_LADKI_PE_DIL_AAYA(128k).mp3",
   },
-  {
+    {
     img: "./images/P4.png",
-    name: "Woh Ladki Yaad Aati Hai",
+    name: "ladki yad aati hai",
     artist: "",
     music: "./music/Woh_Ladki_Bahut_Yaad_Aati(128k).mp3",
   },
   {
     img: "./images/P14.png",
-    name: "Uhe Liwaj Me",
+    name: "Uhe liwaj me ",
     artist: "",
-    music: "./music/A_janu_uhe_liwaj_me_hmra_se_mile_hhhh.mp3",
+    music: "./music/A janu uhe liwaj me hmra se mile hhhh.mp3",
   },
-  {
+    {
     img: "./images/P17.png",
-    name: "Jaa Bewafa Jaa",
+    name: "Jaa_Bewafa_Jaa",
     artist: "",
-    music: "./music/Jaa_Bewafa_Jaa(128k).mp3",
+    music: "./music/Jaa_Bewafa_Jaa(128k).mp"',
   },
-  {
+ {
     img: "./images/P15.png",
-    name: "Main Sehra Bandh Ke",
+    name: "Ladki_Ka_Deewana",
     artist: "",
     music: "./music/Main_Sehra_Bandh_Ke(128k).mp3",
-  },
-  {
+ },
+ {
     img: "./images/P16.png",
-    name: "O Lal Dupatte Wali",
+    name: "O_Lal_Dupatte_Wali",
     artist: "",
     music: "./music/O_Lal_Dupatte_Wali(128k).mp3",
-  },
+ },
 ];
-
-// const music_list = [
-//   {
-//     img: "./images/P18.png",
-//     name: "Mayi_Ri",
-//     artist: "",
-//     music: "./music/Mayi_Ri_-_OST___Audio_🎧___Asrar___Waqar_Ali___ARY_Digital(128k).mp3",
-//   },
-//   {
-//     img: "./images/P1.png",
-//     name: "Apni ByIdhi Zindagi",
-//     artist: "",
-//     music: "./music/Apni_Bhi_Zindagi_Mein(128k).mp3",
-//   },
-//   {
-//     img: "./images/P6.png",
-//     name: "Dil Ki Jo Manoon To",
-//     artist: "",
-//     music: "./music/Dil_Ki_Jo_Maanoon_To(128k).mp3",
-//   },
-//   {
-//     img: "./images/P2.png",
-//     name: "💞 ne yeh kaha hai 💞",
-//     artist:"",
-//     music: "./music/Dil_Ne_Yeh_Kaha_Hain_Dil_Se(128k).mp3",
-//   },
-//   {
-//     img: "./images/P7.png",
-//     name: "Main Ladki Ka Deewana",
-//     artist: "",
-//     music: "./music/Main_Ladki_Ka_Deewana(128k).mp3",
-//   },
-//   {
-//     img: "./images/P11.png",
-//     name: "Radhe Braj Jan Man",
-//     artist: "",
-//     music: "./music/Radhe_Braj_Jan_Man_Sukhkari(128k).mp3",
-//   },
-//     {
-//     img: "./images/P10.png",
-//     name: "Radhe Radhe",
-//     artist: "",
-//     music: "./music/Radhe_Radhe(128k).mp3",
-//   },
-//     {
-//     img: "./images/P12.png",
-//     name: "Sandese aate hai",
-//     artist: "",
-//     music: "./music/Sandese_Aate_Hai(128k).mp3",
-//   },
-//   {
-//     img: "./images/P8.png",
-//     name: "Sun merishehjadi",
-//     artist: "",
-//     music: "./music/Sun_Meri_Shehzadi__From__Dilwale__(128k).mp3",
-//   },
-//   {
-//     img: "./images/P9.png",
-//     name: "Tere dard se dil",
-//     artist: "",
-//     music: "./music/Tere_Dard_Se_Dil(128k).mp3",
-//   },
-//   {
-//     img: "./images/P13.png",
-//     name: "To Chalun",
-//     artist: "",
-//     music: "./music/To_Chalun(128k).mp3",
-//   },
-//   {
-//     img: "./images/P5.png",
-//     name: "Tum yo thehre pardesi",
-//     artist: "",
-//     music: './music/Tum_To_Thehre_Pardesi(128k).mp3",
-//   },
-//     {
-//     img: "./images/P3.png",
-//     name: "us ladki pe dil aaya",
-//     artist: "",
-//     music: "./music/US_LADKI_PE_DIL_AAYA(128k).mp3",
-//   },
-//     {
-//     img: "./images/P4.png",
-//     name: "ladki yad aati hai",
-//     artist: "",
-//     music: "./music/Woh_Ladki_Bahut_Yaad_Aati(128k).mp3",
-//   },
-//   {
-//     img: "./images/P14.png",
-//     name: "Uhe liwaj me ",
-//     artist: "",
-//     music: "./music/A janu uhe liwaj me hmra se mile hhhh.mp3",
-//   },
-//     {
-//     img: "./images/P17.png",
-//     name: "Jaa_Bewafa_Jaa",
-//     artist: "",
-//     music: "./music/Jaa_Bewafa_Jaa(128k).mp"',
-//   },
-//  {
-//     img: "./images/P15.png",
-//     name: "Ladki_Ka_Deewana",
-//     artist: "",
-//     music: "./music/Main_Sehra_Bandh_Ke(128k).mp3",
-//  },
-//  {
-//     img: "./images/P16.png",
-//     name: "O_Lal_Dupatte_Wali",
-//     artist: "",
-//     music: "./music/O_Lal_Dupatte_Wali(128k).mp3",
-//  },
-// ];
 
 loadTrack(track_index);
 
