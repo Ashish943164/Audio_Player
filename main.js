@@ -25,7 +25,7 @@ const music_list = [
     img: "/images/P18.png",
     name: "Mayi_Ri",
     artist: "",
-    music: "/music/Mayi_Ri_-_OST___Audio_🎧___Asrar___Waqar_Ali___ARY_Digital(128k).mp3",
+    music: "./music/Mayi_Ri_-_OST___Audio_🎧___Asrar___Waqar_Ali___ARY_Digital(128k).mp3",
   },
   {
     img: "./images/P1.png",
