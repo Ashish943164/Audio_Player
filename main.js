@@ -55,7 +55,7 @@ const music_list = [
     music: "./music/Main_Ladki_Ka_Deewana(128k).mp3",
   },
   {
-    img: "images/P11.png",
+    img: "./images/P11.png",
     name: "Radhe Braj Jan Man",
     artist: "",
     music: "./music/Radhe_Braj_Jan_Man_Sukhkari(128k).mp3",
