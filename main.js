@@ -127,7 +127,7 @@ const music_list = [
     img: "/images/P16.png",
     name: "O_Lal_Dupatte_Wali",
     artist: "",
-    music: /music/O_Lal_Dupatte_Wali(128k).mp3',
+    music: './music/O_Lal_Dupatte_Wali(128k).mp3',
  },
 ];
 
