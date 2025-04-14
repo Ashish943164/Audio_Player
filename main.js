@@ -34,7 +34,7 @@ const music_list = [
     music: "./music/Apni_Bhi_Zindagi_Mein(128k).mp3",
   },
   {
-    img: "/images/P.png",
+    img: "/images/P6.png",
     name: "Dil Ki Jo Manoon To",
     artist: "",
     music: "./music/Dil_Ki_Jo_Maanoon_To(128k).mp3",
@@ -94,13 +94,13 @@ const music_list = [
     music: './music/Tum_To_Thehre_Pardesi(128k).mp3',
   },
     {
-    img: "/images/P.png",
+    img: "/images/P3.png",
     name: "",
     artist: "",
     music: "./music/US_LADKI_PE_DIL_AAYA(128k).mp3",
   },
     {
-    img: "/images/P.png",
+    img: "/images/P4.png",
     name: "",
     artist: "",
     music: "./music/Woh_Ladki_Bahut_Yaad_Aati(128k).mp3",
