@@ -109,7 +109,7 @@ const music_list = [
     img: "/images/P14.png",
     name: "",
     artist: "",
-    music: "./music./A janu uhe liwaj me hmra se mile hhhh.mp3",
+    music: "./music/A janu uhe liwaj me hmra se mile hhhh.mp3",
   },
     {
     img: "/images/P17.png",
